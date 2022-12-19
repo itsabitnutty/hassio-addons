@@ -3,7 +3,7 @@
   "version": "0.16.0",
   "slug": "dss_monocle-gateway",
   "description": "Monocle Gateway Add-On for Home Assistant",
-  "url": "https://github.com/sdesalve/hassio-addons/tree/master/dss_monocle-gateway",
+  "url": "https://github.com/itsabitnutty/hassio-addons/blob/master/dss_monocle-gateway",
   "startup": "services",
   "hassio_api": true,
   "arch": [
