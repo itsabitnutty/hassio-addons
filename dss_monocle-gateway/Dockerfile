@@ -66,8 +66,8 @@ EXPOSE 443/tcp
 # (used for the @proxy method to allow 
 # IP cameras to transmit streams via UDP)
 # ---------------------------------------
-EXPOSE 62000-62100/udp
-
+# EXPOSE 62000-62100/udp
+EXPOSE map[62000/udp:{} 62001/udp:{} 62002/udp:{} 62003/udp:{} 62004/udp:{} 62005/udp:{} 62006/udp:{} 62007/udp:{} 62008/udp:{} 62009/udp:{} 62010/udp:{} 62011/udp:{} 62012/udp:{} 62013/udp:{} 62014/udp:{} 62015/udp:{} 62016/udp:{} 62017/udp:{} 62018/udp:{} 62019/udp:{} 62020/udp:{} 62021/udp:{} 62022/udp:{} 62023/udp:{} 62024/udp:{} 62025/udp:{} 62026/udp:{} 62027/udp:{} 62028/udp:{} 62029/udp:{} 62030/udp:{} 62031/udp:{} 62032/udp:{} 62033/udp:{} 62034/udp:{} 62035/udp:{} 62036/udp:{} 62037/udp:{} 62038/udp:{} 62039/udp:{} 62040/udp:{} 62041/udp:{} 62042/udp:{} 62043/udp:{} 62044/udp:{} 62045/udp:{} 62046/udp:{} 62047/udp:{} 62048/udp:{} 62049/udp:{} 62050/udp:{} 62051/udp:{} 62052/udp:{} 62053/udp:{} 62054/udp:{} 62055/udp:{} 62056/udp:{} 62057/udp:{} 62058/udp:{} 62059/udp:{} 62060/udp:{} 62061/udp:{} 62062/udp:{} 62063/udp:{} 62064/udp:{} 62065/udp:{} 62066/udp:{} 62067/udp:{} 62068/udp:{} 62069/udp:{} 62070/udp:{} 62071/udp:{} 62072/udp:{} 62073/udp:{} 62074/udp:{} 62075/udp:{} 62076/udp:{} 62077/udp:{} 62078/udp:{} 62079/udp:{} 62080/udp:{} 62081/udp:{} 62082/udp:{} 62083/udp:{} 62084/udp:{} 62085/udp:{} 62086/udp:{} 62087/udp:{} 62088/udp:{} 62089/udp:{} 62090/udp:{} 62091/udp:{} 62092/udp:{} 62093/udp:{} 62094/udp:{} 62095/udp:{} 62096/udp:{} 62097/udp:{} 62098/udp:{} 62099/udp:{} 62100/udp:{}]
 # Copy data for add-on
 COPY run.sh /
 RUN chmod a+x /run.sh
