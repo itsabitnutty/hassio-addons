@@ -1,4 +1,5 @@
 # Changelog
 
-## 0.13.0
+## 0.16.0
 Stable
+Using beta 0.0.6
